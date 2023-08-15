@@ -1,1 +1,2 @@
-ssh -t -i "cert-file.cer" ubuntu@ec2-url  "sudo bash ~/deploy.sh"
+ssh -t -i "sample-key.pem" ubuntu@ec2-54-252-129-234.ap-southeast-2.compute.amazonaws.com "sudo bash ~/deploy.sh"
+ssh -t -i "sample-key.pem" ubuntu@ec2-54-252-129-234.ap-southeast-2.compute.amazonaws.com "source ./deploy.sh"
